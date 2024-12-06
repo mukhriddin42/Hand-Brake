@@ -1,0 +1,22 @@
+footer {
+    height: 150px;
+    background-color: var(--Blue);
+    padding-top: 40px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--White);
+    padding: 15px 0;
+}
+
+.footer-text p {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.footer-text span {
+    color: var(--White);
+    font-weight: 600;
+}

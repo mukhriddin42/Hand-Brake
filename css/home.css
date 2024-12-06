@@ -1,0 +1,58 @@
+main {
+    background-color: var(--SkyBlue);
+}
+
+.homepage {
+    background-color: var(--Blue);
+    height: 645px;
+}
+
+.homepage-content {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-content .content-left {
+    width: 560px;
+}
+
+.homepage-content .content-left h1 {
+    font-family: Roboto;
+    font-size: 92px;
+    color: var(--DarkBlue);
+}
+
+.homepage-content .content-left h3 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--SimpleBlack);
+    margin: 20px 0;
+}
+
+.homepage-content .content-left p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--SimpleBlack);
+    margin: 20px 0;
+}
+
+.homepage-content .content-left button {
+    background-color: var(--DarkYellow);
+    border: none;
+    color: var(--DarkBlue);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 33px;
+    border-radius: 26px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.homepage-content .content-right img {
+    width: 560px;
+}
