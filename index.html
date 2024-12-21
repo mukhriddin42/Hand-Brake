@@ -8,6 +8,9 @@
 <body>
     <!-- Header section -->
      <header>
+        <div class="load">
+            <img src="./images/Infinity@1x-1.8s-200px-200px.gif" alt="">
+        </div>
         <div class="header container">
             <div class="header-logo">
                 <img src="./images/header-logo.png" alt="image">
@@ -191,5 +194,17 @@
         </div>
     </footer>
     <!-- /Footer section -->
+
+
+    <script>
+        let load = document.querySelector(".load");
+        window.addEventListener("load", () => {
+          load.classList.remove("load-none");
+        });
+  
+        setTimeout(() => {
+          load.classList.add("load-none");
+        }, 1200);
+      </script>
 </body>
 </html>

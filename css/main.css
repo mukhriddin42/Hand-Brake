@@ -15,6 +15,30 @@
     margin: 0 auto;
 }
 
+
+
+.load {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 0.3s linear;
+}
+  
+.load-none {
+    opacity: 0;
+    visibility: hidden; /* Yoki display: none */
+}
+
+
+
 a {
     text-decoration: none;
 }
@@ -24,7 +48,7 @@ li {
 }
 
 :root {
-    --DarkBlue: #25468A;
+    --DarkBlue: #09ff00;
     --SimpleBlack:#3B4A6B;
     --Blue:#1391CE;
     --SkyBlue:#cdedffa9;
